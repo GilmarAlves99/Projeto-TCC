@@ -1,0 +1,57 @@
+body {
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #12c2e96d, #c471ed87, #f64f5a00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #12c2e96d, #c471ed48, #f64f5a00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*h1 {
+    position: absolute;
+    margin-top: -20%;
+    font-weight: bolder;
+    font-size: 20pt;
+}*/
+
+.login {
+    position: absolute;
+    margin-top: -70%;
+    width: 150px;
+}
+
+form {
+    position: relative;
+    top: 150px;
+}
+
+small {
+    top: 520px;
+    font-size: 12pt;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+form .button {
+    border-radius: 20px;
+    width: 60vw;
+    padding: 10px;
+    font-family: 'Trispace', sans-serif;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .login {
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .login {
+        margin-top: -200px;
+        max-width: 350px;
+    }
+    form {
+        top: 250px;
+    }
+}

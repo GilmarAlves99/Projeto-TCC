@@ -1,0 +1,22 @@
+        body {
+            background: #ffffff;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #12c2e96d, #c471ed87, #f64f5a00);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #12c2e96d, #c471ed48, #f64f5a00);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            font: bold 17px arial, sans-serif;
+        }
+        
+        .login {
+            position: absolute;
+            margin-top: -460px;
+            width: 120px;
+        }
+        
+        form {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 190px;
+        }
