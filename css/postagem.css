@@ -42,12 +42,12 @@ h3 {
 
 .post {
     position: relative;
-    margin-top: 220px;
+    margin-top: 120px;
     border-radius: 90px;
     border: 1px solid rgba(0, 0, 0, 0.39);
 }
 
-#post {
+.postimg {
     position: relative;
     width: 90px;
     padding: 10px;
