@@ -72,10 +72,10 @@
 }
 
 #menu {
-    margin: 5px;
+    margin: 0px;
     position: relative;
-    top: 10px;
-    box-shadow: 0px 5px 10px rgb(224, 224, 224);
+    top: 5px;
+    background-color: rgb(255, 255, 255);
 }
 
 .conversas {
