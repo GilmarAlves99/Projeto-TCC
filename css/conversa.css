@@ -73,9 +73,14 @@
 
 #menu {
     margin: 0px;
+    top: 0px;
     position: relative;
-    top: 10px;
+    padding: 4px;
     background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(200, 213, 255, 0.37);
 }
 
 .conversas {
@@ -88,18 +93,20 @@
 
 .chat {
     position: relative;
-    top: 30px;
+    padding: 2px;
+    padding: 10px;
 }
 
 .modelagem {
-    padding: 15px;
     margin-top: 30px;
     background-color: rgba(41, 37, 59, 0.144);
 }
 
-#form {
+.formenviar {
+    border: rgba(194, 194, 194, 0.377) solid 1px;
     position: relative;
-    top: 80px;
+    padding: 15px;
+    top: 60px;
 }
 
 .respostaMinha {

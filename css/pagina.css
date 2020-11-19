@@ -5,21 +5,25 @@
 
 #menu {
     margin: 0px;
+    top: 0px;
     position: relative;
-    top: 10px;
+    padding: 10px;
     background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(200, 213, 255, 0.37);
 }
 
 .conteudo {
     position: relative;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 2px;
-    background-color: rgba(200, 213, 255, 0.37);
     padding: 10px;
 }
 
 .usuarios {
-    width: 70px;
+    width: 80px;
     position: relative;
     height: 70px;
     border-radius: 100%;
@@ -30,14 +34,14 @@
 
 .nomes {
     position: relative;
-    top: 15px;
+    top: 5px;
     font-size: 12pt;
     font-weight: 700;
     color: #2d6ba8;
 }
 
 span {
-    top: 5px;
+    top: 0px;
     font-size: 10pt;
     position: relative;
     left: 30%;
@@ -47,14 +51,13 @@ span {
     position: relative;
     padding: 20px;
     color: blue;
-    font-size: 12pt;
+    font-size: 11pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .post {
-    margin-top: -10px;
+    margin-top: 20px;
     border-radius: 90px;
-    background-color: rgba(255, 255, 255, 0.048)
 }
 
 #post {
@@ -95,7 +98,7 @@ span {
 .coment2 {
     position: relative;
     width: 350px;
-    height: 60px;
+    height: 50px;
 }
 
 .botaoteste {

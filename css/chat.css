@@ -28,15 +28,22 @@
     font-weight: 900;
 }
 
-.chat {
+#menu {
+    margin: 0px;
+    top: 0px;
     position: relative;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(200, 213, 255, 0.37);
 }
 
 .modelagem {
     margin-top: 20px;
-    padding: 2px;
-    background-color: rgba(200, 213, 255, 0.37);
     padding: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 .opcao {
