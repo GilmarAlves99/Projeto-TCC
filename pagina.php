@@ -21,11 +21,11 @@ minimum-scale=1, width=device-width" />
             <a href=""><img src="img/home.svg" class="icons"></a>
         </div>
         <div class="col-4 ">
-            <a href="chat.html"><img src="img/chat.svg" class="icons"></a>
+            <a href="chat.php"><img src="img/chat.svg" class="icons"></a>
         </div>
 
         <div class="col-4 ">
-            <a href="profissionais.html"><img src="img/quemsomos.svg" class="icons"></a>
+            <a href="profissionais.php"><img src="img/quemsomos.svg" class="icons"></a>
         </div>
     </div>
 
@@ -48,10 +48,17 @@ minimum-scale=1, width=device-width" />
         <div class="row">
             <div class="col-12 postagem text-left">
                 Olá, meu nome é Gilmar e esse post é apenas uma demonstração de como será a postagem dos usuarios
+                <form>
+                    <div class="blocoIcones">
+                    <input type="text" name="campo">
+                    <button id="iconLike"></button>
+                    <button id="iconChamar"></button>
+                  </div>
+                </form>
 
-                <img src="img/teste.png" class="coment2">
 
-                <!-- <input type="text" class="coment" placeholder="Comentar...">
+
+                <!-- placeholder="Comentar...">
            --></div>
         </div>
 
@@ -73,10 +80,13 @@ minimum-scale=1, width=device-width" />
             <div class="col-12 postagem text-left">
                 Olá, meu nome é Sergio e esse post é apenas uma demonstração de como será a postagem dos usuarios
 
-                <img src="img/teste.png" class="coment2">
-
-                <!-- <input type="text" class="coment" placeholder="Comentar...">
-           -->
+                <form>
+                    <div class="blocoIcones">
+                    <input type="text" name="campo">
+                    <button id="iconLike"></button>
+                    <button id="iconChamar"></button>
+                  </div>
+                </form>
             </div>
         </div>
 
@@ -84,7 +94,7 @@ minimum-scale=1, width=device-width" />
         <div class="row">
             <div class="col-12">
                 <div class="post text-center">
-                    <a href="post.html"><img src="img/post.svg" id="post"></a>
+                    <a href="post.php"><img src="img/post.svg" id="post"></a>
                 </div>
             </div>
 

@@ -17,14 +17,14 @@ minimum-scale=1, width=device-width" />
 
     <div id="menu" class="row text-center ">
         <div class="col-4">
-            <a href="pagina.html"><img src="img/home.svg" class="icons"></a>
+            <a href="pagina.php"><img src="img/home.svg" class="icons"></a>
         </div>
         <div class="col-4 ">
-            <a href="chat.html"><img src="img/chat.svg" class="icons"></a>
+            <a href="chat.php"><img src="img/chat.svg" class="icons"></a>
         </div>
 
         <div class="col-4 ">
-            <a href="profissionais.html"><img src="img/quemsomos.svg" class="icons"></a>
+            <a href="profissionais.php"><img src="img/quemsomos.svg" class="icons"></a>
         </div>
     </div>
 

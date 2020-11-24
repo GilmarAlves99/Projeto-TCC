@@ -18,14 +18,14 @@ minimum-scale=1, width=device-width" />
 
     <div id="menu" class="row text-center ">
         <div class="col-4">
-            <a href="pagina.html"><img src="img/home.svg" class="icons"></a>
+            <a href="pagina.php"><img src="img/home.svg" class="icons"></a>
         </div>
         <div class="col-4 ">
-            <a href="chat.html"><img src="img/chat.svg" class="icons"></a>
+            <a href="chat.php"><img src="img/chat.svg" class="icons"></a>
         </div>
 
         <div class="col-4 ">
-            <a href="profissionais.html"><img src="img/quemsomos.svg" class="icons"></a>
+            <a href="profissionais.php"><img src="img/quemsomos.svg" class="icons"></a>
         </div>
     </div>
 
@@ -42,7 +42,7 @@ minimum-scale=1, width=device-width" />
                     <p> Oi Gilmar, Tudo bem? </p>
                 </div>
                 <div class="col-2 padding">
-                    <img src="img/escolha.svg" class="icon ">
+                    <img src="img/teste1.png" class="icon ">
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ minimum-scale=1, width=device-width" />
                     <p> Olá Luiz, Sou o carlos, vi seu post e ...</p>
                 </div>
                 <div class="col-2 padding">
-                    <img src="img/escolha.svg" class="icon ">
+                    <img src="img/teste1.png" class="icon ">
                 </div>
             </div>
         </div>
@@ -70,12 +70,12 @@ minimum-scale=1, width=device-width" />
                     <img src="img/usuario3.svg" class="icon">
                 </div>
                 <div class="col-7 padding">
-                    <a href="conversa.html">
+                    <a href="conversa.php">
                         <p> Oi Sergio, Meu nome é Irineia mas pode me chamar de neia se quiser</p>
                     </a>
                 </div>
                 <div class="col-2 padding">
-                    <img src="img/escolha.svg" class="icon ">
+                    <img src="img/teste1.png" class="icon ">
                 </div>
             </div>
         </div>

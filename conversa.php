@@ -18,10 +18,10 @@ minimum-scale=1, width=device-width" />
     <div class="content">
         <div id="menu" class="row text-center ">
             <div class="col-4">
-                <a href="pagina.html"><img src="img/home.svg" class="icons"></a>
+                <a href="pagina.php"><img src="img/home.svg" class="icons"></a>
             </div>
             <div class="col-6 ">
-                <a class="conversas" href="chat.html">Conversas</a>
+                <a class="conversas" href="chat.php">Conversas</a>
             </div>
         </div>
 
