@@ -114,3 +114,17 @@ body {
     margin-top: 30px;
     background-color: rgba(204, 228, 255, 0.767);
 }
+
+#caixa-chat {
+    width: 200px;
+    height: 20px;
+    background-color: tomato;
+}
+
+#dados-chat {
+    position: absolute;
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5px;
+    border-bottom: 5px;
+}

@@ -10,22 +10,25 @@ minimum-scale=1, width=device-width" />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mobileui/style.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/pagina.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/paginaInicial.css" rel="stylesheet"/>
     <title>Pagina Inicial teste</title>
 </head>
 
 <body>
 
 <div id="menu" class="row text-center ">
-        <div class="col-4">
+        <div class="col-3">
             <a href="#"><img src="img/home.svg" class="icons"></a>
         </div>
-        <div class="col-4 ">
+        <div class="col-3">
             <a href="chat.php"><img src="img/chat.svg" class="icons"></a>
         </div>
 
-        <div class="col-4 ">
+        <div class="col-3">
             <a href="profissionais.php"><img src="img/quemsomos.svg" class="icons"></a>
+        </div>
+        <div class="col-3">
+            <a href="configuracao.php"><img src="img/euconfig.svg" class="icons"></a>
         </div>
     </div>
 
@@ -92,7 +95,7 @@ minimum-scale=1, width=device-width" />
         </div>
 
 
-        <div class="row">
+        <div class="row center">
             <div class="col-12">
                 <div class="post text-center">
                     <a href="post.php"><img src="img/post.svg" id="post"></a>

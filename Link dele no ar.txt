@@ -1,4 +1,0 @@
-https://gilmaralves99.github.io/Projeto-TCC/inicio/index.html
-
---- Para entrar no chat/Conenversa, click no texto "Oi sergio, Meu nome é Irineia..."
---- Na pagina Chat.html tem uma  div que está oculta por enquanto, quando clicar no botao de opcoes ela ira abrir duas opcoes (linha 82) css (linha 49)

@@ -1,22 +1,5 @@
-/*body {
-    background-color: rgba(102, 102, 102, 0.253);
-}
-
-.modelagem {
-    opacity: 42%;
-}
-*/
-
-.icons {
-    width: 40px;
-    height: 50px;
-}
-
-#menu {
-    margin: 0px;
-    position: relative;
-    top: 10px;
-    background-color: rgb(255, 255, 255);
+body {
+    background-color: rgba(200, 213, 255, 0.37);
 }
 
 .conversas {
@@ -28,31 +11,36 @@
     font-weight: 900;
 }
 
-#menu {
-    margin: 0px;
-    top: 0px;
-    position: relative;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-}
-
-body {
-    background-color: rgba(200, 213, 255, 0.37);
-}
-
 .modelagem {
     margin-top: 20px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
 }
 
-
-/*
-.opcao {
-    opacity: 100%;
+#menu {
+    margin: 0px;
     position: relative;
-    top: 50px;
-    background-color: rgb(255, 255, 255);
+    top: 0px;
     padding: 10px;
-    border-radius: 10px;
-}*/
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*ALTERA AS FORMAS menushape1 e menushape2 DA TELA INICIAL */
+
+
+/*ALTERA A  FORMA DO MENU INICIAL */
+
+.sidenav {
+    height: 0%;
+    width: 100px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+}
