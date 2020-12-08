@@ -123,7 +123,7 @@ span {
     float: left;
     width: 70%;
     height: 42px;
-    background-color: rgb(247, 241, 241);
+    background-color: rgb(255, 255, 255);
     border: none;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.185);
@@ -137,9 +137,13 @@ span {
     background-color: rgb(167, 190, 233);
 }
 
-.botaoteste {
-    width: 40px;
-    height: 50px;
-    position: relative;
-    float: right;
+.sideNav {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    background-color: #a3a3a3;
+    overflow-x: hidden;
+    transition: 0.1s;
+    z-index: 300;
 }

@@ -90,6 +90,18 @@ minimum-scale=1, width=device-width" />
     </div>
 
     <script src="js/bootstrap.min.js" ></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidenav").style.width = "100%";
+            document.getElementById("sidenav").style.height = "300px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+            document.getElementById("sidenav").style.height = "0";
+        }
+    </script>
 </body>
 
 </html>

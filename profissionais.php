@@ -28,7 +28,7 @@ minimum-scale=1, width=device-width" />
             <a href="profissionais.php"><img src="img/quemsomos.svg" class="icons"></a>
         </div>
         <div class="col-3">
-            <a href="#"><img src="img/euconfig.svg" class="icons"></a>
+            <a href="configuracao.php"><img src="img/euconfig.svg" class="icons"></a>
         </div>
     </div>
 

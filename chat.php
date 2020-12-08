@@ -7,6 +7,7 @@
 minimum-scale=1, width=device-width" />
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./mobileui/style.css">
     <link rel="stylesheet" type="text/css" href="css/chat.css">
 
 
@@ -30,8 +31,6 @@ minimum-scale=1, width=device-width" />
             <a href="configuracao.php"><img src="img/euconfig.svg" class="icons"></a>
         </div>
     </div>
-
-
 
 
 
@@ -84,6 +83,8 @@ minimum-scale=1, width=device-width" />
                 </div>
                 <div class="col-2 padding">
                     <a class="active" href="javascript:void(0)" onclick="openNav()"><i class="fas fa-ellipsis-v"></i></a>
+
+
                 </div>
             </div>
 
@@ -95,43 +96,53 @@ minimum-scale=1, width=device-width" />
 
 
 
+
+    <!-- Menu Lateral-->
     <div class="sidenav" id="sidenav">
-
-        <div class="row">
-            <div class="col-4">
-                <img src="img/lixeira.svg" class="icons">
+        <div class="padding">
+            <div class="row">
+                <div class="col-12 text-center padding">
+                    <!-- HREF = MUDE PARA SUA PORTA ,MUDE CASO USE O XAMPP OU ALGO SEMELHANTE-->
+                    <a href="chat.php" onclick="javascript:window.close()"><i class="center fas fa-sign-out-alt">Sair</i> </a>
+                </div>
             </div>
-            <div class="col-8 padding">
-                <p class="text-big text-red ">Apagar Chat
-                    <a href="chat.html" onclick="javascript:window.close()"><i class="text-small center fas fa-sign-out-alt">Sair</i> </a></p>
+            <div class="row">
+                <div class="col-5 text-center">
+                    <img src="img/lixeira.svg" class="icons">
+                </div>
+                <div class="col-7">
+                    <p class="text-big text-white">
+                        Apagar
+                    </p>
+
+                </div>
 
             </div>
+            <div class="row">
+                <div class="col-5 text-center">
+                    <img src="img/denunciar.svg" class="icons">
+                </div>
+                <div class="col-7 text-big text-white  padding">
+                    Denunciar
+                </div>
 
+            </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="img/denunciar.svg" class="icons">
-            </div>
-            <div class="col-8 text-big text-red padding">
-                Denunciar
-            </div>
-        </div>
-
-
     </div>
-
-
-
-
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script>
         function openNav() {
-            document.getElementById("sidenav").style.width = "300px";
+            document.getElementById("sidenav").style.bottom = "-15%";
+            document.getElementById("sidenav").style.width = "100%";
+            document.getElementById("sidenav").style.height = "300px";
         }
 
         function closeNav() {
             document.getElementById("sidenav").style.width = "0";
+            document.getElementById("sidenav").style.height = "0";
         }
     </script>
+    
 
 </body>
