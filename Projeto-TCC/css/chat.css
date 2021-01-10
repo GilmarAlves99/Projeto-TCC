@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(200, 213, 255, 0.37);
+}
+
+.conversas {
+    top: 10px;
+    left: -20px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+.modelagem {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.icons {
+    width: 40px;
+    height: 50px;
+}
+
+#menu {
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sidenav {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    background-color: #a3a3a3;
+    overflow-x: hidden;
+    transition: 0.1s;
+    z-index: 3000;
+}

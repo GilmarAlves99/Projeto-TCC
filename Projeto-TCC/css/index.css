@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to top, #00aeff, #dae4f8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login {
+    position: absolute;
+    margin-top: -70%;
+    width: 150px;
+}
+
+form {
+    position: relative;
+    top: 150px;
+}
+
+form .button {
+    border-radius: 20px;
+    width: 60vw;
+    padding: 10px;
+    font-family: 'Trispace', sans-serif;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .login {
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .login {
+        margin-top: -200px;
+        max-width: 350px;
+    }
+    form {
+        top: 250px;
+    }
+}
