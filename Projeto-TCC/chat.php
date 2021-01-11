@@ -44,7 +44,7 @@ minimum-scale=1, width=device-width" />
                 </div>
                 <div class="col-7 padding">
                     <a href="conversa.php">
-                        <p> Oi Gilmar, Tudo bem? </p>
+                        <p> Oi Gilsmsssssar, Tudo bem? </p>
 
                     </a>
                 </div>
