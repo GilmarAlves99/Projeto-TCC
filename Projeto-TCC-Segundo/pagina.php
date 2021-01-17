@@ -1,3 +1,7 @@
+<?php
+session_start();
+if (isset($_SESSION['login'])) {
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -45,7 +49,8 @@ minimum-scale=1, width=device-width" />
                 <img src="img/eu.jpg" class="usuarios">
             </div>
             <div class="col-7">
-                <p class="nomes text-center">Gilmar Zezilia Alves </p> <span class="text-center">15/11/2020 23:04</span>
+                <p class="nomes text-center"><?php echo $_SESSION['login']; ?>!</p></p> 
+                <span class="text-center">15/11/2020 23:04</span>
             </div>
             <div class="col-2">
                 <a class="active" href="javascript:void(0)" onclick="openNav()"><i class="fas fa-ellipsis-v"></i></a>
@@ -70,7 +75,7 @@ minimum-scale=1, width=device-width" />
             </div>
         </div>
 
-        <!--segundo usu-->
+        <!--segundo usu
 
         <div class="row">
             <div class="col-3">
@@ -84,7 +89,7 @@ minimum-scale=1, width=device-width" />
 
             </div>
         </div>
-        <div class="row">
+       <div class="row">
             <div class="col-12 postagem text-left">
                 Olá, meu nome é Sergio e esse post é apenas uma demonstração de como será a postagem dos usuarios
 
@@ -97,6 +102,7 @@ minimum-scale=1, width=device-width" />
                 </form>
             </div>
         </div>
+        -->
 
 
         <div class="row center">
@@ -161,3 +167,9 @@ minimum-scale=1, width=device-width" />
 </body>
 
 </html>
+<?php
+} else {
+    //Direciona para o Login
+    echo "<script>location.href='login/login.php'</script>";
+}
+?>

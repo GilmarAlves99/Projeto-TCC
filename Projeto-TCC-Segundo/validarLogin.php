@@ -7,7 +7,7 @@ if (isset($_POST['login'], $_POST['senha'])) {
         //recebe os dados
         $login = $_POST['login'];
         $senha = $_POST['senha'];
-
+  
         //Realizando a Conexao com o banco de dados
         $conexao = ConexaoPDO::getInstance();
 
@@ -27,18 +27,19 @@ if (isset($_POST['login'], $_POST['senha'])) {
             //recebe os dados
             session_start();
             $_SESSION['login'] = $login;
+            $_SESSION['email'] = $email;
             //Direciona para páginaRestrita.php
- echo "<script>location.href='chat.php'</script>";
+           echo "<script>location.href='pagina.php'</script>";
         } else {
-            //Direciona para Logina.php
-        echo "<script>location.href='login/cadastrar.php'</script>";
+           //Direciona para Logina.php
+       echo "<script>location.href='login/cadastrar.php'</script>";
         }
     } else {
         //Direciona para Logina.php
-      echo "<script>location.href='login/cadastrar.php'</script>";
+    echo "<script>location.href='login/cadastrar.php'</script>";
     }
 } else {
     //Direciona para Index.php
- echo "<script>location.href='login/cadastrar.php'</script>";
+ echo "<script>location.href='inicio/index.php'</script>";
 }
 ?>

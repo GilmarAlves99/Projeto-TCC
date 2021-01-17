@@ -1,3 +1,7 @@
+<?php
+session_start();
+if (isset($_SESSION['login'])) {
+?>
 <html>
 
 <head>
@@ -146,3 +150,9 @@ minimum-scale=1, width=device-width" />
     
 
 </body>
+<?php
+} else {
+    //Direciona para o Login
+    echo "<script>location.href='login/login.php'</script>";
+}
+?>

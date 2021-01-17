@@ -28,14 +28,19 @@ minimum-scale=1, width=device-width" />
             </div>
             <div class="form-group">
                 <label class="left" for="inputEmail4">Email</label>
-                <input type="email" class="form-control" name="email" id="email"  placeholder="Email">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
             </div>
 
             <div class="form-group">
                 <label class="left">Idade</label>
-                <input type="text" class="form-control" name="idade" id="idade"   placeholder="Idade">
+                <input type="text" class="form-control" name="idade" id="idade" placeholder="Idade">
+            </div>
+            <div class="form-group">
+                <label class="left">Imagem:</label>
+                <input type="file" id="imagem" name="imagem" />
 
             </div>
+
 
             <!--
             <div class="form-check form-check-inline">

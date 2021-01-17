@@ -1,6 +1,5 @@
-
 body {
-    background: linear-gradient(to top, #00aeff, #dae4f8);
+    background: linear-gradient(160deg, #00aeff, #dae4f8);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -55,60 +54,54 @@ button {
     form {
         top: 250px;
     }
-
-body {
-    background: linear-gradient(to top, #00aeff, #dae4f8);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.login {
-    position: absolute;
-    margin-top: -100%;
-    width: 150px;
-}
-
-form {
-    position: relative;
-    top: 80px;
-}
-
-form .botao {
-    top: 60px;
-    color: white;
-    border-radius: 20px;
-    width: 40vw;
-    padding: 10px;
-    font-family: 'Trispace', sans-serif;
-}
-
-small {
-    position: relative;
-    font-size: 15pt;
-    font-weight: 400;
-    top: 40px;
-}
-
-button {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 20px;
-    width: 150px;
-    font-family: 'Kanit', sans-serif;
-    font-size: 15pt;
-    letter-spacing: 2px;
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    .login {
-        margin-top: -200px;
+    body {
+        background: linear-gradient(to top, #00aeff, #dae4f8);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
-}
-
-@media screen and (max-width: 1300px) and (min-width: 900px) {
     .login {
-        margin-top: -200px;
-        max-width: 350px;
+        position: absolute;
+        margin-top: -100%;
+        width: 150px;
     }
     form {
-        top: 250px;
+        position: relative;
+        top: 80px;
     }
+    form .botao {
+        top: 60px;
+        color: white;
+        border-radius: 20px;
+        width: 40vw;
+        padding: 10px;
+        font-family: 'Trispace', sans-serif;
+    }
+    small {
+        position: relative;
+        font-size: 15pt;
+        font-weight: 400;
+        top: 40px;
+    }
+    button {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 20px;
+        width: 150px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15pt;
+        letter-spacing: 2px;
+    }
+    @media screen and (max-width: 900px) and (min-width: 600px) {
+        .login {
+            margin-top: -200px;
+        }
+    }
+    @media screen and (max-width: 1300px) and (min-width: 900px) {
+        .login {
+            margin-top: -200px;
+            max-width: 350px;
+        }
+        form {
+            top: 250px;
+        }
+    }
+}

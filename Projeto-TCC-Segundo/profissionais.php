@@ -1,3 +1,8 @@
+
+<?php
+session_start();
+if (isset($_SESSION['login'])) {
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -39,7 +44,7 @@ minimum-scale=1, width=device-width" />
             </div>
         </div>
 
-        <div class="row">
+       <div class="row">
             <div class="col-12 postagem text-center">
                 <img src="img/prof1.jpg" class="ajudaprof">
                 <h3>Roberta Santos</h3>
@@ -55,3 +60,9 @@ minimum-scale=1, width=device-width" />
 </body>
 
 </html>
+<?php
+} else {
+    //Direciona para o Login
+    echo "<script>location.href='login/login.php'</script>";
+}
+?>
