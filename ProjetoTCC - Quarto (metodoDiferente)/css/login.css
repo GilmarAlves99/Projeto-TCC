@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(160deg, #00aeff, #dae4f8);
+    /*  background: linear-gradient(127deg, #00aeffba, #ff0000b5);*/
+}
+
+.logind {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 200px;
+}
+
+form {
+    position: relative;
+    padding: 20px;
+    top: 310px;
+    margin-left: 20px;
+}
+
+
+/*
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .login {
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .login {
+        margin-top: -200px;
+        max-width: 350px;
+    }
+    form {
+        top: 250px;
+    }
+    .login {
+        position: absolute;
+        margin-top: -100%;
+        width: 150px;
+    }
+    @media screen and (max-width: 900px) and (min-width: 600px) {
+        .login {
+            margin-top: 200px;
+        }
+    }
+    @media screen and (max-width: 1300px) and (min-width: 900px) {
+        .login {
+            margin-top: -200px;
+            max-width: 350px;
+        }
+        form {
+            top: 250px;
+        }
+    }
+} */
