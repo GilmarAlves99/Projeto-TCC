@@ -1,0 +1,55 @@
+.icons {
+    width: 40px;
+    height: 50px;
+}
+
+.iconsEditar {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+    top: 120px;
+}
+
+.iconEditarEmail {
+    width: 20px;
+    height: 30px;
+    top: -40px;
+    position: relative;
+}
+
+.meusDados {
+    position: relative;
+    top: 100px;
+}
+
+.meuPerfil {
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+
+p {
+    position: relative;
+    top: 30px;
+}
+
+.iconsEu {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+#menu {
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(200, 213, 255, 0.37);
+}

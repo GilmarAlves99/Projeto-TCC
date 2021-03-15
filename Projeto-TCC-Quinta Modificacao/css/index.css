@@ -1,0 +1,67 @@
+/*body {
+    background: linear-gradient(160deg, #00aeff, #dae4f8);
+    background-color: lightskyblue;
+}
+
+.login {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+form {
+    position: relative;
+    top: 250px;
+    margin-left: 70px;
+}
+
+form .button {
+    border-radius: 20px;
+    width: 60vw;
+    padding: 10px;
+    font-family: 'Trispace', sans-serif;
+}
+
+#titleDiscoveryNow {
+    font-family: 'Chewy', cursive;
+    font-size: 55px;
+    line-height: 46px;
+    position: absolute;
+    top: 320px;
+    margin-left: 70px;
+}
+
+p {
+    position: absolute;
+    top: 275px;
+    margin-left: 120px;
+    color: blue;
+}
+
+p .erroDeConta {
+    font-size: 15px;
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+}
+
+@media screen and (max-width: 300px) and (min-width: 400px) {
+    .login {
+        top: 210px;
+        position: relative;
+        margin-left: 70px;
+    }
+}
+
+
+/*
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .login {
+        margin-top: -200px;
+        max-width: 350px;
+    }
+    form {
+        top: 250px;
+    }
+} */
