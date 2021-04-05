@@ -1,0 +1,95 @@
+body {
+    /*background: linear-gradient(160deg, #00aeff, #dae4f8);*/
+    background-color: lightskyblue;
+}
+
+.icone {
+    position: relative;
+    margin: auto;
+    width: 50vw;
+    height: 30vh;
+}
+
+.conteudo {
+    position: relative;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.conteudo form input {
+    width: 80vw;
+}
+
+form {
+    position: relative;
+    top: 30px;
+}
+
+.conteudo button,
+.conteudo a {
+    position: relative;
+    width: 32vw;
+    margin-top: 30%;
+    font-size: 1.3rem;
+}
+
+
+/* PIXEL*/
+
+@media screen and (width: 411px) {
+    .conteudo {
+        margin-top: 0px;
+    }
+    form {
+        top: 50px;
+    }
+    .conteudo button,
+    .conteudo a {
+        width: 33vw;
+        margin-top: 40%;
+        font-size: 1.2em;
+    }
+    .icone {
+        width: 50vw;
+        height: 25vh;
+    }
+}
+
+
+/*Iphone 5/SE*/
+
+@media screen and (max-width: 330px) {
+    .conteudo {
+        margin-top: -15%;
+    }
+    form {
+        top: 20px;
+    }
+    .conteudo button,
+    .conteudo a {
+        width: 33vw;
+        font-size: 1em;
+        top: 20px;
+    }
+}
+
+
+/* Galaxy Fold*/
+
+@media screen and (max-width: 280px) {
+    .conteudo {
+        margin-top: -15%;
+    }
+    .conteudo button,
+    .conteudo a {
+        margin: auto;
+        left: -10px;
+        width: 38vw;
+        font-size: 18px;
+        top: 20px;
+    }
+    .icone {
+        width: 100vw;
+        height: 30vh;
+    }
+}

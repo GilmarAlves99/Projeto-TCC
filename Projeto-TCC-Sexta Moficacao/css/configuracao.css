@@ -1,0 +1,37 @@
+.icons {
+    width: 40px;
+    height: 50px;
+}
+
+.meuPerfil {
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+
+.iconsEu {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.sair {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+#menu {
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgba(134, 186, 255, 0.459);
+}
